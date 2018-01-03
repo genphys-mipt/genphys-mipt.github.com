@@ -1,0 +1,12 @@
+{
+	"formulas": [
+		{
+			"name": "Закон Вина",
+			"text": "$\\lambda_m = \\cfrac{b}{T}, b = 2.898 \\cdot 10^{-3} ~\\text{м} \\cdot \\text{К}$"
+		},
+		{
+			"name": "Закон Стефана-Больцмана",
+			"text": "$R = \\sigma T^4, \\sigma = 5.67 \\cdot 10^{-8} ~\\text{Дж/м}^2 \\cdot \\text{с} \\cdot \\text{К}^4$"
+		}
+	]
+}
