@@ -7,6 +7,122 @@
 		{
 			"name": "Закон Стефана-Больцмана",
 			"text": "$R = \\sigma T^4, \\sigma = 5.67 \\cdot 10^{-8} ~\\text{Дж/м}^2 \\cdot \\text{с} \\cdot \\text{К}^4$"
+		},
+		{
+			"name": "Стационарное уравнение Шрёдингера",
+			"text": "$\\hat{H}\\psi = E\\psi, ~\\hat{H} = \\cfrac{\\hat{p}^2}{2m}+U$"
+		},
+		{
+			"name": "Операторы импульса и координаты",
+			"text": "$\\hat{p} = -i\\hbar\\nabla,~\\hat{x}=i\\hbar\\cfrac{\\partial}{\\partial p}$"
+		},
+		{
+			"name": "Общее уравнение Шрёдингера",
+			"text": "$i\\hbar \\cfrac{\\partial}{\\partial t} \\psi = -\\cfrac{\\hbar^2}{2m}\\nabla^2\\psi + U\\psi$"
+		},
+		{
+			"name": "Формула Планка",
+			"text": "$\\rho(\\omega) = \\cfrac{g(\\omega)}{V}\\langle E \\rangle  = \\cfrac{\\omega^2}{\\pi^2c^3}\\cfrac{\\hbar\\omega}{e^{\\hbar\\omega/k_\\text{Б}T}-1}$"
+		},
+		{
+			"name": "Секториальное скорость",
+			"text": "$\\vec{V}_{сект} = \\frac{\\vec{L}}{2m}$"
+		},
+		{
+			"name": "Теорема Гаусса",
+			"text": "$\\Phi = g(r)\\cdot 4\\pi r^2 = -4\\pi GM(r)$"
+		},
+		{
+			"name": "Первый закон Кеплера",
+			"text": "$u = u_0 + c cos\\phi$, $r = \\cfrac{p}{1+e cos\\phi}"
+		},
+		{
+			"name": "Ускорение в неинерциальной системе",
+			"text": "$\\vec{a}_\\text{абс} = \\vec{a} + \\vec{a}_\\text{пер} + \\vec{a}_\\text{кор} = \\vec{a} + [\\dot{\\vec{V_0}} + \\vec{\\omega}\\times(\\vec{\\omega}\\times\\vec{r})+\\dot{\\omega}\\times r] + 2\\vec{\\omega}\\times\\vec{v}$"
+		},
+		{
+			"name": "Сила инерции",
+			"text": "$m\\vec{a} = \\vec{F} + \\vec{F}_\\text{ин}$, $\\vec{F}_\\text{ин} = \\vec{F}_\\text{пост} + \\vec{F}_\\text{ц.б.} + \\vec{F}_\\text{кор}$, $\\vec{F}_\\text{пост} = -m\\dot{\\vec{V}}_0$, $\\vec{F}_\\text{ц.б.} = -m\\vec{\\omega} \\times (\\vec{\\omega} \\times \\vec{r}) - m \\dot{\\vec{\\omega}}\\times\\vec{r}$, $\\vec{F}_\\text{кор} = -2m\\vec{\\omega}\\times\\vec{v}$"
+		},
+		{
+			"name": "4-радиус вектор",
+			"text": "$\\sigma = (ct, \\vec{r})$"
+		},
+		{
+			"name": "преобразование 4-вектора",
+			"text": "$A'_t = \\cfrac{A_t - \\frac{V}{c}A_x}{\\sqrt{1-V^2/c^2}}$, $A'_x = \\cfrac{A_x - \\frac{V}{c}A_t}{\\sqrt{1-V^2/c^2}}$, $A'_y = A_y$, $A'_z = A_z$"
+		},
+		{
+			"name": "4-скорость",
+			"text": "$u = \\cfrac{d\\sigma}{ds} = \\bigg(\\cfrac{1}{\\sqrt{1-v^2/c^2}},\\cfrac{\\vec{v}}{c\\sqrt{1-v^2/c^2}}\\bigg)$, $u^2 = 1$"
+		},
+		{
+			"name": "интервал",
+			"text": "$ds = \\sqrt{c^2dt^2-d\\vec{r}^2} = cdt\\cdot\\sqrt{1-v^2/c^2}$"
+		},
+		{
+			"name": "4-импульс",
+			"text": "$p = m_0cu$ = $\\bigg(\\cfrac{m_0 c}{\\sqrt{1-v^2/c^2}},\\cfrac{m_0\\vec{v}}{\\sqrt{1-v^2/c^2}}\\bigg)$ = $(E/c, \\vec{p})$" 
+		},
+		{
+			"name": "4-сила",
+			"text": "$g = \\cfrac{dp}{ds} = m_0c\\cfrac{du}{ds} = \\bigg( \\cfrac{\\vec{F}\\vec{v}}{c^2\\sqrt{1-v^2/c^2}}, \\cfrac{\\vec{F}}{c\\sqrt{1-v^2/c^2}}\\bigg)$, $\\vec{F} = \\cfrac{d\\vec{p}}{dt}$" 
+		},
+		{
+			"name": "Связь энергии и импульса в релятивистской механики",
+			"text": "$E = \\sqrt{\\vec{p}^2c^2+m_0^2c^4}$" 
+		},
+		{
+			"name": "Порог реакции",
+			"text": "Минимальная энергия частиц, необходимая для реализации данного канала." 
+		},
+		{
+			"name": "Работа, мощнсоть силы",
+			"text": "$dA = \\vec{F}d\\vec{s}$, $P = \\cfrac{dA}{dt} = \\vec{F}\\vec{v}$" 
+		},
+		{
+			"name": "Кинетическая энергия",
+			"text": "$K_2-K_1 = A_{12}$, $dA = m\\vec{v}d\\vec{v}$" 
+		},
+		{
+			"name": "Потенциальная энергия",
+			"text": "$U_1 = A_{10}$" 
+		},
+		{
+			"name": "Классификация сил",
+			"text": "Консервативные, диссипативные, гироскопические" 
+		},
+		{
+			"name": "Потенциальная энергия сил тяготения",
+			"text": "$U(r) = -\\cfrac{GmM}{r}$" 
+		},
+		{
+			"name": "Связь силы с потенциальной энергией",
+			"text": "$\\vec{F} = -\\text{grad}U$" 
+		},
+		{
+			"name": "Закон сохранения энергии",
+			"text": "$E_2 - E_1 = A_{12}^\\text{(дисс)}$" 
+		},
+		{
+			"name": "Теорема Кёнига",
+			"text": "$E_\\text{кин} = E'_\\text{кин} + \\cfrac{MV^2}{2}$" 
+		},
+		{
+			"name": "Абсолютно упругое столкновение",
+			"text": "Образуются те же частицы, внутреняя энергия не меняется. Выполняется ЗСИ. Сохраняется кинетическая энергия." 
+		},
+		{
+			"name": "Абсолютно неупругое столкновение",
+			"text": "образуются новые частицы или исчезают старые, или меняется внутреняя энергия. Выполняется только ЗСИ. $\\Delta K = K_1 + K_2 - \\cfrac{MV^2}{2} = \\cfrac{\\mu v_\\text{отн}^2}{2}$" 
+		},
+		{
+			"name": "Абсолютно упругое столкновение двух тел",
+			"text": "$\\vec{v_i}' = -\\vec{v_i} + 2\\vec{V}_c$" 
+		},
+		{
+			"name": "Метод векторных диаграмм",
+			"text": "В СЦИ: $\\begin{cases} \\vec{p}_{1c} + \\vec{p}_{2c} = \\vec{p'}_{1c} + \\vec{p'}_{2c} = 0 \\\\ \\frac{p_{1c}^2}{2m_1} + \\frac{p_{2c}^2}{2m_2} = \\frac{{p'}_{1c}^2}{2m_1} + \\frac{{p'}_{2c}^2}{2m_2} \\end{cases}$"
 		}
 	]
 }
