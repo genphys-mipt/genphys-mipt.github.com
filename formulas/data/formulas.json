@@ -285,6 +285,98 @@
 			"text": "$Re = \\cfrac{\\rho Ul}{\\eta} = \\cfrac{\\rho U^2l^3}{\\eta Ul} \\sim \\cfrac{E_\\text{кин}}{A_\\text{тр}}$"
 		},
 		{
+			"name": "Деформация",
+			"text": "Изменение объёма или формы тел под действием приложенных сил"
+		},
+		{
+			"name": "Упругая деформация",
+			"text": "исчезает после прекращения действия сил"
+		},
+		{
+			"name": "Пластическая деформация",
+			"text": "не исчезает после прекращения действия сил"
+		},
+		{
+			"name": "Предел прочности",
+			"text": "Минимальная нагрузка, приводящая к разрушению тела"
+		},
+		{
+			"name": "Напряжение",
+			"text": "$\\sigma = \\cfrac{F}{S}$"
+		},
+		{
+			"name": "Натяжение",
+			"text": "$T = \\sigma = \\cfrac{F}{S}$"
+		},
+		{
+			"name": "Давление",
+			"text": "$P = -\\sigma = -\\cfrac{F}{S}$"
+		},
+		{
+			"name": "Деформация (относительное удлиннение)",
+			"text": "$\\varepsilon = \\cfrac{\\Delta l}{l}$"
+		},
+		{
+			"name": "Закон Гука",
+			"text": "$\\varepsilon = \\cfrac{\\sigma}{E}$, $E$ — модуль Юнга"
+		},
+		{
+			"name": "Коэффициент жестксоти (упругости) и модуль Юнга",
+			"text": "$k = \\cfrac{ES}{l}$"
+		},
+		{
+			"name": "Поперечная деформация (коэффициент Пуассона)",
+			"text": "$\\varepsilon_\\bot = -\\mu\\varepsilon_{\\parallel} = -\\mu \\cfrac{\\sigma}{E}$"
+		},
+		{
+			"name": "Трёхосное нагружение",
+			"text": "$\\varepsilon_x = \\cfrac{1}{E}[\\sigma_x - \\mu(\\sigma_y + \\sigma_z)]$"
+		},
+		{
+			"name": "Относительно изменение объёма",
+			"text": "$\\Delta V = (l_x + \\Delta l_x)(l_y + \\Delta l_y)(l_z + \\Delta l_z) = l_yl_z\\Delta l_x + l_xl_z\\Delta l_y + l_xl_y\\Delta l_z \\Rightarrow \\cfrac{\\Delta V}{V} = \\varepsilon_x + \\varepsilon_y + \\varepsilon_z$"
+		},
+		{
+			"name": "Всестороннее сжатие",
+			"text": "$\\sigma_x = \\sigma_y = \\sigma_z = -P \\Rightarrow \\varepsilon_x = \\varepsilon_y = \\varepsilon_z = -\\cfrac{P}{E}(1-2\\mu)$, $\\cfrac{\\Delta V}{V} = -\\cfrac{P}{K} = -\\cfrac{3P}{E}(1-2\\mu)$, $\\mu$ — модуль всестороннего сжатия"
+		},
+		{
+			"name": "Одностороннее сжатие",
+			"text": "$\\varepsilon_y = \\cfrac{1}{E}[\\sigma_y - \\mu(\\sigma_x+\\sigma_z)] = 0 = \\varepsilon_z$ $\\Rightarrow$ $\\sigma_y+\\sigma_z = \\cfrac{2\\mu}{1-\\mu}\\sigma_x$ $\\Rightarrow$ $\\varepsilon_x = \\cfrac{1}{E}\\bigg(\\sigma_x-\\cfrac{2\\mu^2}{1-\\mu}\\sigma_x\\bigg) = \\cfrac{(1-2\\mu)(1+\\mu)}{1-\\mu}\\cfrac{\\sigma_x}{E}$, $K_1 \\cfrac{1-\\mu}{(1+\\mu)(1-2\\mu)}E$ — модуль одностороннего сжатия"
+		},
+		{
+			"name": "",
+			"text": ""
+		},
+		{
+			"name": "",
+			"text": ""
+		},
+		{
+			"name": "",
+			"text": ""
+		},
+		{
+			"name": "",
+			"text": ""
+		},
+		{
+			"name": "",
+			"text": ""
+		},
+		{
+			"name": "",
+			"text": ""
+		},
+		{
+			"name": "",
+			"text": ""
+		},
+		{
+			"name": "",
+			"text": ""
+		},
+		{
 			"name": "",
 			"text": ""
 		},
